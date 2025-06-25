@@ -11,15 +11,15 @@
 }
 
 .greet{
-    @apply lg:text-base md:text-sm
+    @apply lg:text-base md:text-sm text-sm
 }
 
 .name{
-    @apply lg:text-5xl md:text-2xl
+    @apply lg:text-5xl md:text-2xl text-xl
 }
 
 .role{
-    @apply lg:text-4xl text-[#3ed2af] md:text-lg
+    @apply lg:text-4xl text-[#3ed2af] md:text-lg text-base
 }
 
 .buttons{
@@ -27,7 +27,7 @@
 }
 
 .button{
-    @apply flex gap-2 justify-center items-center bg-[#B98BA5] text-white border-2 border-[#B98BA5] lg:rounded-[12px] md:rounded-[6px] lg:h-14 md:h-12 lg:w-40 md:w-32 shadow-lg shadow-[#B98BA5] cursor-pointer lg:text-xl md:text-base md:mt-5
+    @apply flex gap-2 justify-center items-center bg-[#B98BA5] text-white border-2 border-[#B98BA5] px-2 rounded-[6px] md:rounded-[6px] lg:h-14 md:h-12 h-9 lg:w-40 md:w-32 shadow-lg shadow-[#B98BA5] cursor-pointer lg:text-xl md:text-base md:mt-5
 }
 
 .button .icon{
@@ -35,21 +35,21 @@
 }
 
 .photo img{
-    @apply lg:w-[450px] lg:ml-10 lg:rounded-full md:w-[220px] md:rounded-full
+    @apply lg:w-[450px] lg:ml-10 md:w-[280px] w-[180px] rounded-full 
 }
 
 .social{
-    @apply flex flex-col lg:gap-4 md:gap-1 lg:mb-5 md:mb-5
+    @apply flex flex-col lg:gap-4 md:gap-1 lg:mb-5 md:mb-5 mb-5
 }
 
 .follow-me{
-    @apply flex flex-row lg:gap-3 md:gap-2 lg:text-base lg:ml-2 md:ml-1 md:mt-8 md:text-base
+    @apply flex flex-row lg:gap-3 md:gap-2 gap-2 lg:text-base text-base lg:ml-2 md:ml-1 lg:mt-0 md:mt-8 mt-8 md:text-base
 }
 
 .address{
-    @apply lg:text-base md:text-base
+    @apply lg:text-base md:text-base text-base
 }
 
 .follow-me2{
-    @apply flex flex-col justify-center items-center lg:mr-10 lg:mt-40 md:text-lg lg:text-xl md:mr-6
+    @apply flex flex-col justify-center items-center lg:mr-10 lg:mt-40 md:text-lg lg:text-xl md:mr-6 mr-4 text-sm
 }

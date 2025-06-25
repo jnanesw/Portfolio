@@ -11,7 +11,7 @@
 }
 
 .header span {
-  @apply text-4xl md:text-3xl font-extrabold bg-[#B98BA5] text-[#2B152F] md:rounded-lg md:px-2;
+  @apply text-4xl md:text-3xl sm:text-2xl font-extrabold bg-[#B98BA5] text-[#2B152F] rounded-lg px-2;
 }
 
 .header p {
@@ -23,7 +23,7 @@
 }
 
 .details {
-  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:gap-8 md:gap-6 justify-items-center;
+  @apply grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 lg:gap-8 md:gap-6 gap-4 justify-items-center;
 }
 
 .skill-span {
@@ -35,7 +35,7 @@
 }
 
 .skill-img {
-  @apply w-16 h-16 object-contain md:rounded-lg;
+  @apply w-16 h-16 object-contain rounded-lg;
 }
 
 .skill-name {
