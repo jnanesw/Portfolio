@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.experience-container {
+  @apply  bg-gradient-to-r from-slate-50 to-slate-200 max-w-6xl mx-auto my-auto  px-6 rounded-2xl shadow-xl backdrop-blur;
+}
+
+.experience-header {
+  @apply mb-10 text-center;
+}
+
+.experience-title {
+  @apply text-4xl font-extrabold tracking-wider text-slate-800 mb-2;
+}
+
+.experience-subtitle {
+  @apply text-lg text-slate-600;
+}
+
+.experience-list {
+  @apply space-y-8 text-base;
+}
+
+.experience-card {
+  @apply flex items-start gap-6 p-6 bg-white rounded-xl shadow-md border-l-4 mb-8 ;
+}
+
+.tcs-border {
+  @apply border-blue-400;
+}
+
+.celebal-border {
+  @apply border-green-400;
+}
+
+.experience-logo {
+  @apply w-16 h-16 object-contain rounded-full ring-2;
+}
+
+.tcs-ring {
+  @apply ring-blue-300;
+}
+
+.celebal-ring {
+  @apply ring-green-300;
+}
+
+.experience-role {
+  @apply text-xl font-semibold text-slate-700;
+}
+
+.experience-points {
+  @apply list-disc list-inside text-slate-600 mt-2 mb-2;
+}
+
+.experience-duration {
+  @apply text-sm text-slate-500 mt-2;
+}
+
+.experience-card {
+  box-shadow: 0 25px 50px -12px rgba(30,41,59,0.25);
+  border-left-width: 4px;
+  transition: transform 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.experience-card:hover {
+  transform: scale(1.01);
+}

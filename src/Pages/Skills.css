@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skills-details {
+  @apply min-h-screen bg-[#2B152F] py-16 px-6 flex flex-col items-center;
+}
+
+.header {
+  @apply text-center mb-10;
+}
+
+.header span {
+  @apply text-4xl md:text-3xl font-extrabold bg-[#B98BA5] text-[#2B152F] md:rounded-lg md:px-2;
+}
+
+.header p {
+  @apply text-lg text-slate-100 mt-2;
+}
+
+.skills {
+  @apply flex flex-col gap-10 md:gap-16 md:mt-14;
+}
+
+.details {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:gap-8 md:gap-6 justify-items-center;
+}
+
+.skill-span {
+  @apply flex flex-col items-center gap-2 grid-cols-4 grid-rows-3 md:gap-4  ;
+}
+
+.skill-span:hover{
+    @apply md:scale-[1.04]
+}
+
+.skill-img {
+  @apply w-16 h-16 object-contain md:rounded-lg;
+}
+
+.skill-name {
+  @apply text-sm font-medium text-slate-100;
+}

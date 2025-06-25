@@ -1,0 +1,55 @@
+.just-for-heading {
+  @apply min-h-screen flex flex-col items-center justify-center bg-purple-300 py-8;
+}
+
+.heading {
+  @apply text-4xl md:text-4xl font-extrabold text-rose-900 mb-5 tracking-tight drop-shadow-lg text-center;
+}
+
+.about {
+  @apply flex flex-col lg:flex-row items-center gap-10 bg-white/90 rounded-3xl shadow-2xl ring-2 ring-rose-200 p-8 md:p-12 max-w-5xl w-full;
+}
+
+.MrStark {
+  @apply w-40 h-40 md:w-56 md:h-56 object-cover rounded-full shadow-lg ring-4 ring-rose-300 mb-6 lg:mb-0 transition-transform duration-300 hover:scale-105;
+}
+
+.me {
+  @apply flex-1 flex flex-col gap-8;
+}
+
+.para {
+  @apply block text-lg text-slate-700 leading-relaxed;
+}
+
+.highlight {
+  @apply font-semibold text-rose-700;
+}
+
+.education {
+  @apply block mt-4;
+}
+
+.edu-title {
+  @apply text-2xl md:text-3xl font-bold text-rose-800 mb-4 tracking-tight;
+}
+
+.uni-details {
+  @apply flex items-center gap-6 bg-slate-50 rounded-xl p-4 shadow-md ring-1 ring-rose-100;
+}
+
+.university {
+  @apply w-16 h-16 md:w-20 md:h-20 object-contain rounded-lg ring-2 ring-rose-200;
+}
+
+.duration {
+  @apply text-base text-slate-700;
+}
+
+.degree {
+  @apply text-xl md:text-2xl font-semibold text-slate-900;
+}
+
+.college {
+  @apply text-lg text-slate-800;
+}

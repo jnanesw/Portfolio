@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply min-h-5 mt-5 bg-[#2B152F] w-full;
+}
+
+.nav-container {
+  @apply relative h-20 flex items-center px-6 max-w-7xl mx-auto w-full;
+}
+
+.logo {
+  @apply w-20 rounded-full;
+}
+
+.nav-links {
+  @apply absolute left-1/2 transform -translate-x-1/2 flex gap-8 bg-[#3A263D] px-4 py-1.5 rounded-2xl;
+}
+
+.nav-links a {
+  @apply text-[#B98BA5] text-lg font-medium px-3 py-2 rounded-lg cursor-pointer transition-colors duration-200;
+}
+
+.nav-links a:hover {
+  @apply bg-[#B98BA588] text-[#2B152F];
+}
